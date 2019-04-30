@@ -6,6 +6,8 @@
 
 //gestion joystick
 
+int dx,dy;
+
 
 //Définition des entrées/sorties utilisées
 int controleur1=2;               //Analogique 2
