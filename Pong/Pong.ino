@@ -3,17 +3,19 @@
 #include <Adafruit_SSD1306.h>      //Librairie pour écran
 #define OLED_RESET 4
 
-
-//gestion joystick
-
-
-
-
 //Définition des entrées/sorties utilisées
-int controleur1=2;               //Analogique 2
-int controleur2=3;               //Analogique 3
+//int controleur1=2;               //Analogique 2
+//int controleur2=3;               //Analogique 3
 int led=5;                        //Digital 5
 int btn=6;                        //Digital 6
+// Arduino pin Joysitck 1
+const int SW1_pin = 2; // digital pin connected to switch output
+//const int X1_pin = 0; // analog pin connected to X output
+const int Y1_pin = 1; // analog pin connected to Y output
+// Arduino pin Joysitck 2
+const int SW2_pin = 2; // digital pin connected to switch output
+//const int X2_pin = 0; // analog pin connected to X output
+const int Y2_pin = 1; // analog pin connected to Y output
 
 //Définition des variables
 int gameStatus =0;                //Si 0->Menu, 1->Jeu, 2->Termine
