@@ -6,7 +6,7 @@
 
 //gestion joystick
 
-int dx,dy;
+
 
 
 //Définition des entrées/sorties utilisées
