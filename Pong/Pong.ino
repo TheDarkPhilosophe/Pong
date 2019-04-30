@@ -3,6 +3,8 @@
 #include <Adafruit_SSD1306.h>      //Librairie pour écran
 #define OLED_RESET 4
 
+//gestion joystick
+
 //Définition des entrées/sorties utilisées
 int controleur1=2;               //Analogique 2
 int controleur2=3;               //Analogique 3
